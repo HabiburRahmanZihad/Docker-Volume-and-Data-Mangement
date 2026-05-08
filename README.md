@@ -30,5 +30,7 @@ what we store in docker container
 5- Managing Volumes with the Docker CLI [all commands]
 6- Hands-on Docker Bind Mounts
 
+bind mount command: docker run -it --name bind-demo -v "${PWD}:/app" -w /app -p 5000:5000 node:20-alpine sh -c "npm install -g nodemon && npm install && nodemon --watch /app --legacy-watch index.js"
+
 Quick Reference Cheat Sheet
 Real Command	Example Command	Usage
