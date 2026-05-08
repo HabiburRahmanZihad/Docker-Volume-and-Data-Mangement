@@ -32,5 +32,7 @@ what we store in docker container
 
 bind mount command: docker run -it --name bind-demo -v "${PWD}:/app" -w /app -p 5000:5000 node:20-alpine sh -c "npm install -g nodemon && npm install && nodemon --watch /app --legacy-watch index.js"
 
+7- Solving A Classic Problem Combining Volumes and Bind Mounts
+
 Quick Reference Cheat Sheet
 Real Command	Example Command	Usage
