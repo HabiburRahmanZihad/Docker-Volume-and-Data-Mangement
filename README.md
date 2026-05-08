@@ -39,5 +39,8 @@ bind mount command: docker run -it --name bind-demo -v "${PWD}:/app" -w /app -p 
 1- using docker run command with -e flag
 2- using docker run command with --env-file flag
 3- using Dockerfile with ENV instruction
+
+9- The .dockerignore File
+
 Quick Reference Cheat Sheet
 Real Command	Example Command	Usage
