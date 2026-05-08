@@ -34,5 +34,10 @@ bind mount command: docker run -it --name bind-demo -v "${PWD}:/app" -w /app -p 
 
 7- Solving A Classic Problem Combining Volumes and Bind Mounts
 
+8- Environment Variables and .env Files
+3 method to set environment variables in docker
+1- using docker run command with -e flag
+2- using docker run command with --env-file flag
+3- using Dockerfile with ENV instruction
 Quick Reference Cheat Sheet
 Real Command	Example Command	Usage

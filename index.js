@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
+const NODE_ENV = process.env.NODE_ENV || 'development';
 
 app.get('/', (req, res) => {
-    res.send('docker bind mount demo');
+    res.send('this is the node app running in ' + NODE_ENV + ' environment');
 });
 
 
